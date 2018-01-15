@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-crew-view',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./crew-view.component.scss']
 })
 export class CrewViewComponent implements OnInit {
+  @Input() items: Array<any>;
 
   constructor() { }
 
