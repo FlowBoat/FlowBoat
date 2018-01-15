@@ -1,0 +1,13 @@
+<section [ngClass]="getOrientation()"
+         class="spotlight style1 content-align-left image-position-center onscroll-image-fade-in" id="first">
+  <div class="content">
+    <h2>{{ data.title }}</h2>
+    <p>{{ data.body }}</p>
+    <ul class="actions vertical">
+      <li><a href="#" class="button">Learn More</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img [src]="data.src" alt="" />
+  </div>
+</section>
