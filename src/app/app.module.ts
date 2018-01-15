@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { SectionComponent } from './components/section/section.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { ArticleComponent } from './components/gallery/article/article.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     AppComponent,
     BannerComponent,
     SectionComponent,
-    GalleryComponent
+    GalleryComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule
