@@ -10,4 +10,5 @@ export interface Member {
   team: Team;
   role: Role;
   image?: string;
+  link?: string;
 }
