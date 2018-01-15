@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { SectionComponent } from './components/section/section.component';
-import { CrewViewComponent } from './components/crew-view/crew-view.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 
 @NgModule({
@@ -13,7 +13,7 @@ import { CrewViewComponent } from './components/crew-view/crew-view.component';
     AppComponent,
     BannerComponent,
     SectionComponent,
-    CrewViewComponent
+    GalleryComponent
   ],
   imports: [
     BrowserModule
