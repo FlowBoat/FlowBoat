@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-section',
@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./section.component.scss']
 })
 export class SectionComponent implements OnInit {
+  @Input() data: object;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  getOrientation() {
+    return {
+      'orient-right': this.data.orientation === 'right',
+      'orient-left': this.data.orientation === 'left'
+    };
   }
 
 }
