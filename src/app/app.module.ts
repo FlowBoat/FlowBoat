@@ -7,6 +7,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { SectionComponent } from './components/section/section.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { ArticleComponent } from './components/gallery/article/article.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ArticleComponent } from './components/gallery/article/article.component
     BannerComponent,
     SectionComponent,
     GalleryComponent,
-    ArticleComponent
+    ArticleComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule
