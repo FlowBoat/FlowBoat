@@ -1,3 +1,48 @@
-<p>
-  projects works!
-</p>
+<section class="module pb-0" id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2 class="module-title font-alt">Our Projects</h2>
+        <div class="module-subtitle font-serif"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="filter font-alt" id="filters">
+          <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
+          <li><a class="wow fadeInUp" href="#" data-filter=".fintech" data-wow-delay="0.2s">FinTech</a></li>
+          <li><a class="wow fadeInUp" href="#" data-filter=".greentech" data-wow-delay="0.4s">GreenTech</a></li>
+          <li><a class="wow fadeInUp" href="#" data-filter=".healthtech" data-wow-delay="0.6s">HealthTech</a></li>
+          <li><a class="wow fadeInUp" href="#" data-filter=".data" data-wow-delay="0.6s">Data</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
+    <!--Insert a router here instead of link-->
+    <li *ngFor="let project of projects" [ngClass]="getTags(project)" class="work-item"><a [href]="project.link">
+      <div class="work-image"><img [src]="project.img" alt="Projects Item"></div>
+      <div class="work-caption font-alt">
+        <h3 class="work-title">{{ project.title }}</h3>
+        <div class="work-descr">{{ project.desc }}</div>
+      </div>
+    </a></li>
+  </ul>
+</section>
+<section class="module-small bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+        <div class="callout-text font-alt">
+          <h3 class="callout-title">Want to see more works?</h3>
+          <p>We are always open to interesting projects.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="callout-btn-box"><a class="btn btn-w btn-round" href="portfolio_boxed_gutter_col_3.html">Contact us!</a></div>
+      </div>
+    </div>
+  </div>
+</section>

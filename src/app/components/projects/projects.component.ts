@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-projects',
@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
+  @Input() projects;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  getTags(project) {
+    return {
+      'fintech': project.tags[0] === true,
+      'greentech': project.tags[1] === true,
+      'healthtech': project.tags[2] === true,
+      'data': project.tags[3] === true
+    };
   }
 
 }
