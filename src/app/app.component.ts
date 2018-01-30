@@ -81,8 +81,7 @@ export class AppComponent {
       ],
       img: 'assets/images/work-6.jpg',
       title: 'More projects on the way!',
-      desc: 'Description filler',
-      link: '#'
+      desc: 'Description filler'
     }
   ];
 
