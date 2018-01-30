@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Project } from './models/project';
 import { Member, Role, School, SocialType } from './models/member';
 import { Testimonial } from './models/testimonial';
+import { Post } from './models/post';
 
 @Component({
   selector: 'app-root',
@@ -382,4 +383,33 @@ export class AppComponent {
     }
   ];
 
+  posts: Array<Post> = [
+    {
+      title: 'Welcome to the Velocity Start space!',
+      author: this.members[0],
+      img: 'assets/images/post-1.jpg',
+      date: '31 December',
+      blurb: 'Lorem ipsum 130 characters more blah blah blah blah blah blah blah blah blah blah blah blah blah...',
+      content: 'This is where the content of the post will go',
+      link: '#'
+    },
+    {
+      title: 'Press release!',
+      author: this.members[1],
+      img: 'assets/images/post-2.jpg',
+      date: '31 January',
+      blurb: 'Lorem ipsum 130 characters more blah blah blah blah blah blah blah blah blah blah blah blah blah...',
+      content: 'This is where the content of the post will go',
+      link: '#'
+    },
+    {
+      title: 'Our Trip to  New York',
+      author: this.members[0],
+      img: 'assets/images/post-3.jpg',
+      date: '31 March',
+      blurb: 'Lorem ipsum 130 characters more blah blah blah blah blah blah blah blah blah blah blah blah blah...',
+      content: 'This is where the content of the post will go',
+      link: '#'
+    }
+  ];
 }
