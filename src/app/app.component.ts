@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Project } from './models/project';
 import { Member, Role, School, SocialType } from './models/member';
+import { Testimonial } from './models/testimonial';
 
 @Component({
   selector: 'app-root',
@@ -362,4 +363,23 @@ export class AppComponent {
       link: '#'
     },
   ];
+
+  testimonials: Array<Testimonial> = [
+    {
+      content: 'What a great impact FlowBoat has made on my life!',
+      author: 'John Doe',
+      caption: 'The John Doe Company'
+    },
+    {
+      content: 'What a great impact FlowBoat has made on my life!',
+      author: 'John Doe',
+      caption: 'The John Doe Company'
+    },
+    {
+      content: 'What a great impact FlowBoat has made on my life!',
+      author: 'John Doe',
+      caption: 'The John Doe Company'
+    }
+  ];
+
 }
