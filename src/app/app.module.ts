@@ -10,6 +10,7 @@ import { PresentationComponent } from './components/presentation/presentation.co
 import { ProjectsComponent } from './components/projects/projects.component';
 import { TeamComponent } from './components/team/team.component';
 import { QuotesComponent } from './components/quotes/quotes.component';
+import { BlogComponent } from './components/blog/blog.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { QuotesComponent } from './components/quotes/quotes.component';
     PresentationComponent,
     ProjectsComponent,
     TeamComponent,
-    QuotesComponent
+    QuotesComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule
