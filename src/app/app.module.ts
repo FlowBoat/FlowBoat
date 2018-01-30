@@ -11,6 +11,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { TeamComponent } from './components/team/team.component';
 import { QuotesComponent } from './components/quotes/quotes.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { BlogComponent } from './components/blog/blog.component';
     ProjectsComponent,
     TeamComponent,
     QuotesComponent,
-    BlogComponent
+    BlogComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
