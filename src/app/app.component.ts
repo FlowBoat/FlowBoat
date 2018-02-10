@@ -938,6 +938,7 @@ export class AppComponent {
   ];
 
   testimonials: Array<Testimonial> = [
+    /*
     {
       content: 'What a great impact FlowBoat has made on my life!',
       author: 'John Doe',
@@ -953,6 +954,7 @@ export class AppComponent {
       author: 'John Doe',
       caption: 'The John Doe Company'
     }
+    */
   ];
 
   posts: Array<Post> = [
@@ -964,7 +966,8 @@ export class AppComponent {
       blurb: 'Lorem ipsum 130 characters more blah blah blah blah blah blah blah blah blah blah blah blah blah...',
       content: 'This is where the content of the post will go',
       link: '#'
-    },
+    }
+    /*
     {
       title: 'Press release!',
       author: this.members[1],
@@ -983,5 +986,6 @@ export class AppComponent {
       content: 'This is where the content of the post will go',
       link: '#'
     }
+    */
   ];
 }
