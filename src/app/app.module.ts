@@ -13,6 +13,7 @@ import { QuotesComponent } from './components/quotes/quotes.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
+import { Nl2BrPipe } from './pipes/nl2br.pipe';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { AboutComponent } from './components/about/about.component';
     QuotesComponent,
     BlogComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    Nl2BrPipe
   ],
   imports: [
     BrowserModule
