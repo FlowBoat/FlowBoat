@@ -3,7 +3,9 @@ export enum SocialType {
   twitter = 'Twitter',
   youtube = 'Youtube',
   instagram = 'Instagram',
-  website = 'Website'
+  website = 'Website',
+  linkedin = 'LinkedIn',
+  github = 'Github'
 }
 
 export enum Role {

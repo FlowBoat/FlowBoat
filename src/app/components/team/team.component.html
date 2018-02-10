@@ -6,24 +6,24 @@
         <div class="module-subtitle font-serif">Behind all of these great projects is a dedicated team of students, without whom Flowboat would not be possible.</div>
       </div>
     </div>
-    <div class="row">
-      <div *ngFor="let member of members" class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-        <div class="team-item">
-          <div class="team-image"><img [src]="member.img" alt="Member Photo"/>
-            <div class="team-detail">
-              <h5 class="font-alt">{{ member.team.name }}</h5>
-              <p class="font-serif">{{ member.tagline }}</p>
-              <div class="team-social">
-                <a *ngFor="let social of member.socials" [href]="social.link"><i [class]="social.icon"></i></a>
+    <div *ngFor="let members of memberGroups" class="row">
+        <div *ngFor="let member of members" class="mb-sm-20 wow fadeInUp" onclick="wow fadeInUp">
+          <div class="team-item col-sm-6 col-md-3">
+            <div class="team-image"><img [src]="member.img" alt="Member Photo"/>
+              <div class="team-detail">
+                <h5 class="font-alt">{{ member.team.name }}</h5>
+                <p class="font-serif">{{ member.tagline }}</p>
+                <div class="team-social">
+                  <a *ngFor="let social of member.socials" [href]="social.link"><i [class]="social.icon"></i></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="team-descr font-alt">
-            <div class="team-name">{{ member.name }}</div>
-            <div class="team-role">{{ member.role }}</div>
+            <div class="team-descr font-alt">
+              <div class="team-name">{{ member.name }}</div>
+              <div class="team-role">{{ member.role }}</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </div>
 </section>
