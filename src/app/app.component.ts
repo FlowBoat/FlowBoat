@@ -370,8 +370,8 @@ export class AppComponent {
         link: '#'
       },
       role: Role.marketing,
-      tagline: '',
-      desc: '',
+      tagline: ' believe that with passion and effort, anyone can achieve anything and that\'s why I love working with people who love doing what they do.',
+      desc: 'I believe that with passion and effort, anyone can achieve anything and that\'s why I love working with people who love doing what they do. Flowboat has given me the opportunity to do what I am passionate about with a large group of some of the region’s brightest minds. Being surrounded by over achievers in the city of Waterloo has definitely inspired me to try new things and to never shut out the opportunities which are given to me. Growing up, I have always reached for the top, although there were many bumps along the way and many more to come, I\'ve learned to keep moving forward. As Enzo Ferrari would say “What\'s behind you, doesn\'t matter”. Not only have I learned to keep looking forward but to also learn from my past mistakes and use them to my advantage. What keeps me going in through the day is definitely the 3000 some bagels that I’ve eaten over the years for breakfast, and the millions of bowls of cereal for whatever meal of the day. Some subject areas that peak my interest include renewable energy, computer science, as well as the medical field. Kind of all over the place if you ask me. I\'m not too sure what I want to do with my life just yet but hopefully that day is approaching very soon!\n',
       socials: [
       ],
       link: '#'
