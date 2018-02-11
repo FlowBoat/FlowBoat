@@ -14,6 +14,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { Nl2BrPipe } from './pipes/nl2br.pipe';
+import { HomeComponent } from './pages/home/home.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { Nl2BrPipe } from './pipes/nl2br.pipe';
     BlogComponent,
     FooterComponent,
     AboutComponent,
-    Nl2BrPipe
+    Nl2BrPipe,
+    HomeComponent
   ],
   imports: [
     BrowserModule
