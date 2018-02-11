@@ -17,6 +17,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { FlowiPageComponent } from './pages/flowi-page/flowi-page.component';
+import { ProjectDisplayComponent } from './components/project-display/project-display.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FlowiPageComponent } from './pages/flowi-page/flowi-page.component';
     Nl2BrPipe,
     HomeComponent,
     PageNotFoundComponent,
-    FlowiPageComponent
+    FlowiPageComponent,
+    ProjectDisplayComponent
   ],
   imports: [
     BrowserModule,
