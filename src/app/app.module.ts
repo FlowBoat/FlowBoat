@@ -19,6 +19,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { FlowiPageComponent } from './pages/flowi-page/flowi-page.component';
 import { ProjectDisplayComponent } from './components/project-display/project-display.component';
 import { BloombudPageComponent } from './pages/bloombud-page/bloombud-page.component';
+import { BlogPostComponent } from './pages/blog-post/blog-post.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BloombudPageComponent } from './pages/bloombud-page/bloombud-page.compo
     PageNotFoundComponent,
     FlowiPageComponent,
     ProjectDisplayComponent,
-    BloombudPageComponent
+    BloombudPageComponent,
+    BlogPostComponent
   ],
   imports: [
     BrowserModule,

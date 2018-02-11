@@ -979,7 +979,7 @@ export class HomeComponent implements OnInit {
       'The club is supported by the MIT’s LaunchX program. This program gives Flowboat educational material, partners people with mentors, and gives members opportunity to pitch their Future startup’s to an international stage. \n' +
       '“This is truly a one of a kind experience you can not get anywhere else” says Mahmud, Vice President and co-founder of Flowboat.\n' +
       'It is exciting to see what this young and energetic group of youth entrepreneurs come up with this year. This post begins a long but rewarding journey of becoming a youth entrepreneur.\n',
-      link: '#'
+      link: '/Post'
     }
     /*
     {

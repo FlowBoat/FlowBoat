@@ -1,0 +1,25 @@
+<div class="main">
+  <section class="module bg-dark-90 blog-page-header" [style.background-image]="'url(\'' + post.img + '\')'">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="module">
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="post">
+          <div class="post-header font-alt mt-0 pt-0">
+            <h2 class="post-title">{{ post.title }}</h2>
+            <div class="post-meta">By&nbsp; {{ post.author }} | {{ post.date }}</div>
+          </div>
+          <div class="post-entry">
+            <p style="font-size: 1.5em">{{ post.content }}</p>
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+</div>
