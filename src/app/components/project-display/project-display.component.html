@@ -1,3 +1,19 @@
-<p>
-  project-display works!
-</p>
+<section class="module bg-dark-60 pt-0 pb-0 parallax-bg" data-background="assets/images/section-6.jpg" id="about">
+  <div class="row position-relative m-0">
+    <div class="col-xs-12 col-md-4 side-image" [style.background-image]="project.logo"></div>
+    <div class="col-xs-12 col-md-8 col-md-offset-4 side-image-text" style="background: transparent">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="module-title font-alt align-left">{{ project.title }}</h2>
+          <h4 class="font-alt align-left">{{ project.line }}</h4>
+          <div class="module-subtitle font-serif align-left">
+            <p>
+              {{ project.desc }}
+            </p>
+          </div>
+          <a [href]="project.link"><button class="btn btn-circle">Visit their webpage</button>&nbsp;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

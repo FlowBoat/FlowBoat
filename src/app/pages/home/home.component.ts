@@ -23,7 +23,9 @@ export class HomeComponent implements OnInit {
       img: 'assets/images/groups/FloWi.jpg',
       title: 'Flowi',
       desc: 'The smart advertising solution for dense city centres.',
-      link: '#'
+      link: '#',
+      logo: '',
+      line: ''
     },
     {
       tags: [
@@ -35,7 +37,9 @@ export class HomeComponent implements OnInit {
       img: 'assets/images/groups/BloomBud.jpg',
       title: 'BloomBud',
       desc: 'Working to integrate technology with plant life to bring about happy gardening',
-      link: '#'
+      link: '#',
+      logo: '',
+      line: ''
     },
     {
       tags: [
@@ -47,7 +51,9 @@ export class HomeComponent implements OnInit {
       img: 'assets/images/groups/smartwater.jpg',
       title: 'SmartWater',
       desc: '',
-      link: '#'
+      link: '#',
+      logo: '',
+      line: ''
     },
     {
       tags: [
@@ -59,7 +65,9 @@ export class HomeComponent implements OnInit {
       img: 'assets/images/groups/iotstorm.jpg',
       title: 'IOTStorm',
       desc: '',
-      link: '#'
+      link: '#',
+      logo: '',
+      line: ''
     },
     {
       tags: [
@@ -71,7 +79,9 @@ export class HomeComponent implements OnInit {
       img: 'assets/images/logos/malarkey.jpg',
       title: 'Malarkey',
       desc: '',
-      link: '#'
+      link: '#',
+      logo: '',
+      line: ''
     },
     {
       tags: [
@@ -82,7 +92,10 @@ export class HomeComponent implements OnInit {
       ],
       img: 'assets/images/logos/more.jpg',
       title: 'More projects on the way!',
-      desc: ''
+      desc: '',
+      link: '#',
+      logo: '',
+      line: ''
     }
   ];
 
