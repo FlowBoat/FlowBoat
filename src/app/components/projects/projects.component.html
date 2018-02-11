@@ -25,11 +25,11 @@
       <div class="work-image"><img [src]="project.img" alt="Projects Item"></div>
       <div class="work-caption font-alt">
         <h3 class="work-title">{{ project.title }}</h3>
-        <div class="work-descr">{{ project.desc }}</div>
+        <div class="work-descr">{{ project.line }}</div>
         <br>
         <!--Insert a router here instead of link-->
         <div *ngIf="project.link">
-          <a [href]="project.link"><button class="btn btn-d btn-circle">Visit</button>&nbsp;</a>
+          <a [routerLink]="'/' + project.title"><button class="btn btn-d btn-circle">Visit</button>&nbsp;</a>
         </div>
       </div>
     </a></li>
