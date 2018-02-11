@@ -7,8 +7,10 @@ import { BloombudPageComponent } from './pages/bloombud-page/bloombud-page.compo
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', component: HomeComponent },
+  { path: 'Home', redirectTo: '' },
   { path: 'Flowi', pathMatch: 'full', component: FlowiPageComponent },
   { path: 'BloomBud', pathMatch: 'full', component: BloombudPageComponent },
+  { path: 'Malarkey', pathMatch: 'full', redirectTo: 'https://github.com/FlowLabs-Malarkey'},
   { path: '404', component: PageNotFoundComponent },
   { path: '**', redirectTo: '/404'}
 ];

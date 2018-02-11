@@ -21,18 +21,20 @@
     </div>
   </div>
   <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-    <li *ngFor="let project of projects" [ngClass]="getTags(project)" class="work-item"><a [href]="project.link">
+    <li *ngFor="let project of projects" [ngClass]="getTags(project)" class="work-item"><!--<a [routerLink]="'/' + project.title" skipLocationChange>-->
       <div class="work-image"><img [src]="project.img" alt="Projects Item"></div>
       <div class="work-caption font-alt">
         <h3 class="work-title">{{ project.title }}</h3>
         <div class="work-descr">{{ project.line }}</div>
         <br>
         <!--Insert a router here instead of link-->
+        <!--
         <div *ngIf="project.link">
-          <a [routerLink]="'/' + project.title"><button class="btn btn-d btn-circle">Visit</button>&nbsp;</a>
+          <a [routerLink]="'/' + project.title" skipLocationChange><button class="btn btn-d btn-circle">Visit</button>&nbsp;</a>
         </div>
+        -->
       </div>
-    </a></li>
+    <!--</a>--></li>
   </ul>
 </section>
 <section class="module-small bg-dark">

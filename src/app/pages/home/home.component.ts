@@ -22,10 +22,10 @@ export class HomeComponent implements OnInit {
       ],
       img: 'assets/images/groups/FloWi.jpg',
       title: 'Flowi',
-      desc: 'The smart advertising solution for dense city centres.',
+      desc: '',
       link: '#',
       logo: '',
-      line: ''
+      line: 'The smart advertising solution for dense city centres.'
     },
     {
       tags: [
@@ -36,10 +36,10 @@ export class HomeComponent implements OnInit {
       ],
       img: 'assets/images/groups/BloomBud.jpg',
       title: 'BloomBud',
-      desc: 'Working to integrate technology with plant life to bring about happy gardening',
+      desc: '',
       link: '#',
       logo: '',
-      line: ''
+      line: 'Working to integrate technology with plant life to bring about happy gardening'
     },
     {
       tags: [
@@ -51,9 +51,8 @@ export class HomeComponent implements OnInit {
       img: 'assets/images/groups/smartwater.jpg',
       title: 'SmartWater',
       desc: '',
-      link: '#',
       logo: '',
-      line: ''
+      line: 'Helping users track their water usage through user friendly design'
     },
     {
       tags: [
@@ -67,7 +66,7 @@ export class HomeComponent implements OnInit {
       desc: '',
       link: '#',
       logo: '',
-      line: ''
+      line: 'Mass data analysis on micro scale weather patterns'
     },
     {
       tags: [
@@ -79,9 +78,8 @@ export class HomeComponent implements OnInit {
       img: 'assets/images/logos/malarkey.jpg',
       title: 'Malarkey',
       desc: '',
-      link: '#',
       logo: '',
-      line: ''
+      line: 'Generative Adversarial Networks for finding Malarkey in tweets'
     },
     {
       tags: [
@@ -93,7 +91,6 @@ export class HomeComponent implements OnInit {
       img: 'assets/images/logos/more.jpg',
       title: 'More projects on the way!',
       desc: '',
-      link: '#',
       logo: '',
       line: ''
     }

@@ -5,5 +5,5 @@ export interface Project {
   title: string;
   line: string;
   desc: string;
-  link: string;
+  link?: string;
 }
