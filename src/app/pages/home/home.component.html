@@ -1,12 +1,14 @@
 <app-banner></app-banner>
 <div class="main">
-  <app-services></app-services>
-  <app-presentation></app-presentation>
   <app-projects [projects]="projects"></app-projects>
   <hr class="divider-w">
-  <app-team [memberGroups]="memberGroups"></app-team>
-  <app-quotes [testimonials]="testimonials"></app-quotes>
-  <app-blog [posts]="posts"></app-blog>
+  <app-services></app-services>
   <app-about></app-about>
+  <app-team [memberGroups]="memberGroups"></app-team>
+  <app-presentation></app-presentation>
+  <app-blog [posts]="posts"></app-blog>
+  <!--
+  <app-quotes [testimonials]="testimonials"></app-quotes>
+  -->
   <app-footer></app-footer>
 </div>
