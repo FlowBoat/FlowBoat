@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BannerComponent } from './components/banner/banner.component';
@@ -17,7 +16,7 @@ import { Nl2BrPipe } from './pipes/nl2br.pipe';
 import { HomeComponent } from './pages/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
-
+import { FlowiPageComponent } from './pages/flowi-page/flowi-page.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +33,11 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     AboutComponent,
     Nl2BrPipe,
     HomeComponent,
+<<<<<<< HEAD
     PageNotFoundComponent
+=======
+    FlowiPageComponent
+>>>>>>> Generate FlowiPageComponent scaffold
   ],
   imports: [
     BrowserModule,
