@@ -18,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { FlowiPageComponent } from './pages/flowi-page/flowi-page.component';
 import { ProjectDisplayComponent } from './components/project-display/project-display.component';
+import { BloombudPageComponent } from './pages/bloombud-page/bloombud-page.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ProjectDisplayComponent } from './components/project-display/project-di
     HomeComponent,
     PageNotFoundComponent,
     FlowiPageComponent,
-    ProjectDisplayComponent
+    ProjectDisplayComponent,
+    BloombudPageComponent
   ],
   imports: [
     BrowserModule,
