@@ -897,7 +897,6 @@ export class HomeComponent implements OnInit {
         ],
         link: '#'
       },
-      /*
       {
         name: 'Jack Bishop',
         img: 'assets/images/members/jack-bishop.jpg',
@@ -927,14 +926,13 @@ export class HomeComponent implements OnInit {
           img: 'assets/images/teams/iotstorm.jpg',
           link: '#'
         },
-        role: Role.leadDev,
+        role: Role.developer,
         tagline: '',
         desc: '',
         socials: [
         ],
         link: '#'
       }
-      */
     ]
   ];
 
