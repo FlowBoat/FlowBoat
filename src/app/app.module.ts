@@ -16,6 +16,7 @@ import { AboutComponent } from './components/about/about.component';
 import { Nl2BrPipe } from './pipes/nl2br.pipe';
 import { HomeComponent } from './pages/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     AboutComponent,
     Nl2BrPipe,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
