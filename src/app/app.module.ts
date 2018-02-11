@@ -33,11 +33,8 @@ import { FlowiPageComponent } from './pages/flowi-page/flowi-page.component';
     AboutComponent,
     Nl2BrPipe,
     HomeComponent,
-<<<<<<< HEAD
-    PageNotFoundComponent
-=======
+    PageNotFoundComponent,
     FlowiPageComponent
->>>>>>> Generate FlowiPageComponent scaffold
   ],
   imports: [
     BrowserModule,
