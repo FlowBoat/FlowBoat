@@ -9,16 +9,16 @@
     <div class="row multi-columns-row post-columns">
       <div *ngFor="let post of posts" class="col-sm-6 col-md-4 col-lg-4">
         <div class="post mb-20">
-          <div class="post-thumbnail"><a [routerLink]="post.link"><img [src]="post.img" alt="Blog-post Thumbnail"/></a></div>
+          <div class="post-thumbnail"><a (click)="goTo(post)"><img [src]="post.img" alt="Blog-post Thumbnail"/></a></div>
           <div class="post-header font-alt">
-            <h2 class="post-title"><a [routerLink]="post.link">{{ post.title }}</a></h2>
+            <h2 class="post-title"><a (click)="goTo(post)">{{ post.title }}</a></h2>
             <div class="post-meta">By&nbsp;<a [href]="post.author.link"> {{ post.author.name }} </a>&nbsp;| {{ post.date }}
             </div>
           </div>
           <div class="post-entry">
             <p>{{ post.blurb }}</p>
           </div>
-          <div class="post-more"><a class="more-link" [routerLink]="post.link">Read more</a></div>
+          <div class="post-more"><a class="more-link" (click)="goTo(post)">Read more</a></div>
         </div>
       </div>
     </div>

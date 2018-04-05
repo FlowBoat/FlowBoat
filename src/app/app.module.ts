@@ -20,6 +20,7 @@ import { FlowiPageComponent } from './pages/flowi-page/flowi-page.component';
 import { ProjectDisplayComponent } from './components/project-display/project-display.component';
 import { BloombudPageComponent } from './pages/bloombud-page/bloombud-page.component';
 import { BlogPostComponent } from './pages/blog-post/blog-post.component';
+import { PostService } from './services/post.service';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,7 @@ import { BlogPostComponent } from './pages/blog-post/blog-post.component';
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [PostService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

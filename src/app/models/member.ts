@@ -11,6 +11,7 @@ export enum SocialType {
 export enum Role {
   CEO = 'CEO',
   projectManager = 'Project Manager',
+  CCO = 'CCO',
   leadDev = 'Lead Developer',
   developer = 'Developer',
   marketing = 'Marketing',

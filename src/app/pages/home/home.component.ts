@@ -980,6 +980,21 @@ export class HomeComponent implements OnInit {
       '“This is truly a one of a kind experience you can not get anywhere else” says Mahmud, Vice President and co-founder of Flowboat.\n' +
       'It is exciting to see what this young and energetic group of youth entrepreneurs come up with this year. This post begins a long but rewarding journey of becoming a youth entrepreneur.\n',
       link: '/Post'
+    },
+    {
+      title: 'An Amazing Launch Year with Astonishing Results \n',
+      author: this.members[1],
+      img: 'assets/images/logos/flowi.png',
+      date: '3 April',
+      blurb: 'Flowboat’s launch year has been an absolute success. This year we had around 20 youth entrepreneurs from across Waterloo...',
+      content: 'Flowboat’s launch year has been an absolute success. This year we had around 20 youth entrepreneurs from across Waterloo, Kitchener, Guelph and Cambridge working on 4 different startup ventures. Flowboat members have been working tremendous hours over the last couple of months on their startup companies in order to submit their first pitch to MIT’s LaunchX program. \n' +
+      '\n' +
+      'MIT’s LaunchX program has been supporting Flowboat by providing mentors and resources to help guide these startup ventures. The LaunchX program concludes every year with startup teams submitting a video pitch outlining their company. This year, over 1000 teams participated from around the world. 20 teams were selected from this international pool to attend a global pitching day at MIT. \n' +
+      '\n' +
+      'Every startup from Flowboat produced outstanding results, and will be continuing to develop their companies at Flowboat. However, the startup company Flowi, consisting of members Atif Mahmud, Adam Martinez, and Ally Cai were selected to attend the international pitching event.\n' +
+      '\n' +
+      'This fantastic result is an excellent step forward for Flowboat. We are excited to continue our work, and we wish the best to our finalist team!',
+      link: '/Post'
     }
     /*
     {

@@ -1,4 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Post } from '../../models/post';
+import { PostService } from '../../services/post.service';
 
 @Component({
   selector: 'app-blog',
@@ -8,9 +11,15 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BlogComponent implements OnInit {
   @Input() posts;
 
-  constructor() { }
+  constructor(private router: Router, private postService: PostService) {
+  }
 
   ngOnInit() {
+  }
+
+  goTo(post: Post) {
+    this.postService.setPost(post);
+    this.router.navigate([post.link]);
   }
 
 }
